@@ -53,3 +53,16 @@ body{
     background-color: white;
     margin-bottom: 20px;
 }
+
+#question{
+    padding-top: 25px;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 15px;
+
+}
