@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: auto;
+}
+
+.whiteBackground{
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 90px auto;
+    display: flex;
+    overflow: hidden;
+}
+
