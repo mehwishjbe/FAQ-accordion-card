@@ -48,3 +48,8 @@ body{
     width: 500px;
     height: 600px;
 }
+
+.box{
+    background-color: white;
+    margin-bottom: 20px;
+}
