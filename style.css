@@ -66,3 +66,13 @@ body{
     padding-top: 15px;
 
 }
+
+.arrow{
+    margin-right: 10px;
+}
+
+.arrowImgClass{
+    width: 10px;
+    height: 7px;
+    margin-right: 25px; 
+}
