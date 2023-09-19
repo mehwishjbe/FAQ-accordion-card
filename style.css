@@ -10,6 +10,7 @@ body{
     width: auto;
     height: auto;
     font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient(to right, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
 }
 
 .whiteBackground{
@@ -20,11 +21,10 @@ body{
     margin: 90px auto;
     display: flex;
     overflow: hidden;
-    background-image: linear-gradient(to right, hsl(240, 73%, 65%), hsl(273, 75%, 66%) );
 }
 
 .imgDiv{
-    background-color: aqua;
+    background-color: white;
     height: 600px;
     width: 300px;
     border-top-left-radius: 20px;
@@ -35,7 +35,7 @@ body{
     background-repeat: no-repeat;
     background-position-x: 130%;   
     background-position-y: 80%; 
-    background-image: url(./images/bg-pattern-desktop.png); 
+    background-image: url(./images/bg-pattern-desktop.png);
 }
 
 #img-pattern{
@@ -71,6 +71,10 @@ body{
     padding-top: 15px;
 }
 
+.question:hover{
+    color: hsl(14, 88%, 65%);
+}
+
 .arrow{
     margin-right: 10px;
 }
@@ -86,4 +90,8 @@ body{
     max-height: 0;
     overflow: hidden;
     color: hsl(240, 6%, 50%);
+}
+
+.hr{
+ margin-top: 20px;   
 }
