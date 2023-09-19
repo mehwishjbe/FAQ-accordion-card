@@ -19,3 +19,17 @@ body{
     overflow: hidden;
 }
 
+.imgDiv{
+    background-color: aqua;
+    height: 600px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+    background-size: 546px 550px; 
+    background-repeat: no-repeat;
+    background-position-x: 130%;   
+    background-position-y: 80%;   
+}
+
