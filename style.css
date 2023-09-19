@@ -96,3 +96,16 @@ body{
 .hr{
  margin-top: 20px;   
 }
+
+.arrow.active{
+    transform: rotate(-180deg);
+}
+
+.answer.active{
+    max-height: fit-content;
+    overflow: visible;
+}
+
+span.active{
+    font-weight: bold;
+}
